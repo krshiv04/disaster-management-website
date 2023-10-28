@@ -1,0 +1,23 @@
+.p1 img{
+    height: 150px;
+}
+
+.p2 img{
+    height: 150px;
+}
+
+.vl{
+    height: 75%;
+    margin-left: 10px;
+}
+
+.p1 p{
+    text-wrap: wrap;
+    text-align: left;
+}
+
+.p2 p{
+    padding-left: 12px;
+    text-wrap: wrap;
+    text-align: left;
+}

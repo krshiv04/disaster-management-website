@@ -1,0 +1,931 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(209 209 209);
+}
+
+/* Utility class */
+
+.subtopic {
+    background-color: white;
+    margin: 30px 0px;
+}
+
+.st{
+    padding: 16px 12px;
+}
+
+.heading {
+    border: 2px solid #24245c;
+    display: inline-block;
+    background-color: #24245c;
+    color: white;
+    margin-left: -12px;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+.st p {
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 12px 0px;
+    padding-right: 14px;
+    width: 60%;
+    margin-top: 12px;
+}
+
+p strong{
+    font-size: 1.6rem;
+}
+
+.st img {
+    height: 265px;
+    margin: 0px 12px 0px 34px;
+    padding: 12px;
+}
+
+
+/* Nvigation bar */
+
+#navbar {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar img {
+    height: 60px;
+    margin: 5px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 2px 22px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+/* Heading section  */
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 434px;
+}
+
+#title h1 {
+    text-align: center;
+    margin-top: -65px;
+    font-size: 3rem;
+    font-family: "Audiowide", sans-serif;
+    color: #342e2d;
+    
+}
+
+#title::before {
+    content: "";
+    background: url('assests/title logo.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 780px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.85;
+}
+
+.line {
+    margin: 0px 25px;
+    margin-top: 12px;
+}
+
+/* Intro section */
+#introsec {
+    background-color: white;
+    margin: 18px 0px;
+}
+
+.section1 {
+    padding: 60px 215px;
+}
+
+.section1 p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 42px 28px;
+    font-style: italic;
+}
+
+.section2 {
+    display: flex;
+    width: 100%;
+}
+
+.section2 p {
+    padding-left: 15px;
+    width: 60%;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.section2 p strong{
+    font-size: 2.5rem;
+}
+
+.section2 img {
+    width: 40%;
+    height: 400px;
+    padding-left: 179px;
+    margin: -1px 0px 28px -20px;
+    width: 300px;
+}
+
+/* What is disaster */
+
+.inst1 {
+    display: flex;
+    width: 100%;
+}
+
+
+/* Causes */
+
+.st ul {
+    padding: 12px;
+    font-size: 1.5rem;
+}
+
+.st ul ol {
+    padding-left: 12px;
+}
+
+#hcause {
+    padding-top: 25px;
+}
+
+.underlist {
+    padding: 6px;
+}
+
+.events1 {
+    display: flex;
+    width: 100%;
+}
+
+.events1 ul li {
+    width: 60%;
+    padding: 15px 0px;
+}
+
+.events1 img {
+    height: 245px;
+    margin: -30px 43px 12px 100px;
+    padding: 12px;
+}
+
+.events2 {
+    display: flex;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+}
+
+.events2 ul ol {
+    width: 60%;
+    float: right;
+    padding: 12px 0px;
+}
+
+.events2 img {
+    height: 245px;
+    margin: -20px 184px -13px 136px;
+    padding: 15px 0px;
+}
+
+.events3 {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px 15px 0px;
+}
+
+.events3 ul li {
+    width: 60%;
+    padding: 12px 0px;
+}
+
+.events3 img {
+    height: 245px;
+    margin: -3px 61px -4px 145px;
+    padding: 12px;
+}
+
+.events4 {
+    display: flex;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.events4 ul ol {
+    width: 60%;
+    float: right;
+}
+
+.events4 img {
+    height: 245px;
+    margin: 12px 155px -13px 87px;
+    padding: 12px;
+}
+
+/* Disaster management */
+
+.inst3 {
+    display: flex;
+    width: 100%;
+}
+
+.inst3 img{
+    margin: 70px 12px 12px 69px;
+}
+
+/* Phases of disaster */
+
+
+.inst4 ol{
+    padding-left: 15px;
+    
+}
+
+.inst4 ol li{
+    font-size: 1.4rem;
+}
+
+.type1{
+    padding: 16px 2px;
+    font-size: 1.3rem;
+    display: flex;
+    width: 100%;
+}
+
+.type1 ol ul{
+    width: 60%;
+}
+
+.type1 ul li{
+    padding: 10px;
+    width: 94%;
+}
+
+.type1 img {
+    height: 245px;
+    margin: -3px 29px -4px 22px;
+    padding: 12px;
+}
+
+
+.type2{
+    padding: 35px 2px;
+    font-size: 1.3rem;
+    display: flex;
+    width: 100%;
+}
+
+.type2 ol ul{
+    width: 60%;
+}
+
+.type2 ul li{
+    padding: 10px;
+    width: 84%;
+}
+
+.type2 img {
+    height: 245px;
+    margin: -3px 29px -4px 22px;
+    padding: 12px;
+}
+
+
+.type3{
+    padding: 35px 2px;
+    font-size: 1.3rem;
+    display: flex;
+    width: 100%;
+}
+
+.type3 ol ul{
+    width: 60%;
+}
+
+.type3 ul li{
+    padding: 10px;
+    width: 83%;
+}
+
+.type3 img {
+    height: 245px;
+    margin: -3px 29px -4px 22px;
+    padding: 12px;
+}
+
+/* Preventive measures */
+
+.measures{
+    padding: 12px;
+    padding-left: 15px;
+    width: 62%;
+}
+.measures p{
+    width: 96%;
+    font-size: 1.4rem;
+}
+.measures ol{
+    font-size: 1.4rem;
+}
+
+.measures ol li{
+    padding: 6px;
+}
+
+/* Risk assessment */
+
+.inst6{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.assessment{
+    width: 60%;
+    padding-left: 15px;
+}
+
+.assessment ol li{
+    margin-top: 12px;
+    font-size: 1.4rem; 
+}
+.inst6 img{
+    margin: 193px 12px 12px 67px;
+    height: 330px;
+}
+
+/* Early warning systems */
+
+.inst7{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst7 img{
+    margin: 32px 12px 12px 57px;
+    height: 300px;
+}
+
+/* Types of ews */
+
+.inst8{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst8 ul{
+    width: 60%;
+}
+
+.inst8 ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst8 img{
+    margin: 75px 12px 12px 57px;
+    height: 300px;
+}
+
+/* Role of tech in ews */
+
+
+.inst9{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst9 ul{
+    width: 60%;
+}
+
+.inst9 ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst9 img{
+    margin: 0px 12px 12px 76px;
+    height: 480px;
+}
+
+/* Community Preparedness */
+
+.inst10{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst10 img{
+    margin: 60px 12px 12px 44px;
+    height: 300px;
+}
+
+/* Government and Institutional Preparedness */
+
+
+.inst11{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst11 img{
+    margin: 3px 12px 12px 50px;
+    height: 425px;
+}
+
+/* Post-Disaster Response */
+
+
+.inst12{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst12 ul{
+    width: 60%;
+}
+
+.inst12 ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst12 img{
+    margin: 73px 12px 12px 62px;
+    height: 330px;
+}
+
+/* Recovery and rehabilitation*/
+
+.inst13{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst13 img{
+    margin: 53px 12px 12px 50px;
+    height: 360px;
+}
+
+/* Case studies */
+
+.inst14{
+    margin-left: 10px;
+}
+.case1{
+    padding: 16px 2px;
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.case1 ol{
+    font-style: italic;
+    width: 92%;
+}
+.case1 ol li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.case1 img{
+    margin:95px 25px 12px 30px;
+}
+
+.case1 figure{
+    width: 40%;
+}
+.case1 figcaption {
+    margin-left: 45px;
+    font-size: 1.2rem;
+}
+.case1 figcaption strong{
+    color: rgb(75 88 241);
+}
+
+
+.case2{
+    padding: 16px 2px;
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.case2 ol{
+    font-style: italic;
+    width: 92%;
+}
+.case2 ol li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.case2 img{
+    margin:95px 25px 12px 30px;
+}
+
+.case2 figure{
+    width: 40%;
+}
+.case2 figcaption {
+    margin-left: 45px;
+    font-size: 1.2rem;
+}
+.case2 figcaption strong{
+    color: rgb(75 88 241);
+}
+
+.case3{
+    padding: 16px 2px;
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.case3 ol{
+    font-style: italic;
+    width: 90%;
+}
+.case3 ol li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.case3 img{
+    margin:95px 25px 12px 30px;
+}
+
+.case3 figure{
+    width: 40%;
+}
+.case3 figcaption {
+    margin-left: 45px;
+    font-size: 1.2rem;
+}
+.case3 figcaption strong{
+    color: rgb(75 88 241);
+}
+
+.case4{
+    padding: 16px 2px;
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-top: 35px;
+}
+
+.case4 ol{
+    font-style: italic;
+    width: 92%;
+}
+.case4 ol li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.case4 img{
+    margin:11px 25px 12px 30px;
+}
+
+.case4 figure{
+    width: 40%;
+}
+.case4 figcaption {
+    margin-left: 45px;
+    font-size: 1.2rem;
+}
+.case4 figcaption strong{
+    color: rgb(75 88 241);
+}
+
+/* Technology and innovation */
+
+
+.inst15{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst15 img{
+    margin: 53px 12px 12px 63px;
+    height: 285px;
+}
+
+/* Environmental Considerations */
+
+.inst16{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst16 img{
+    margin: 40px 12px 12px 72px;
+    height: 270px;
+}
+
+.practices{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.practices ul{
+    width: 60%;
+}
+
+.practices ul li{
+    padding-top: 5px;
+    font-size: 1.4rem;
+}
+
+.practices img{
+    margin: 45px 12px 12px 70px;
+    height: 270px;
+}
+
+/* Policy and Legislation */
+
+.inst17{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst17 ul{
+    width: 60%;
+}
+
+.inst17 ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst17 img{
+    margin: 116px 12px 12px 62px;
+    height: 330px;
+}
+
+/*  International Cooperation */
+
+.inst18{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst18 ul{
+    width: 60%;
+}
+
+.inst18 ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst18 img{
+    margin: 116px 12px 12px 62px;
+    height: 330px;
+}
+
+/* Public Awareness and Education */
+
+.inst19{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst19 ul{
+    width: 60%;
+}
+
+.inst19 ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst19 img{
+    margin: 5px 12px 12px 0px;
+    height: 390px;
+}
+
+/* Challenges and Future Directions */
+
+.inst20a{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst20a ul{
+    width: 60%;
+}
+
+.inst20a ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst20a img{
+    margin: 45px 12px 12px 62px;
+    height: 330px;
+}
+
+.inst20b{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst20b ul{
+    width: 60%;
+}
+
+.inst20b ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst20b img{
+    margin: 45px 12px 12px 62px;
+    height: 330px;
+}
+
+/* Conclusion and Recommendations */
+
+.inst21a{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst21a ul{
+    width: 60%;
+}
+
+.inst21a ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst21a img{
+    margin: -30px 12px 12px 62px;
+    height: 522px;
+}
+
+.inst21b{
+    padding: 16px 2px;
+    display: flex;
+    width: 100%;
+}    
+
+.inst21b ul{
+    width: 60%;
+}
+
+.inst21b ul li{
+    padding-top: 15px;
+    font-size: 1.4rem;
+}
+
+.inst21b img{
+    margin: 45px 12px 12px 62px;
+    height: 330px;
+}
+
+/* References and Citations */
+
+.inst22{
+    padding: 16px 2px;
+    width: 60%;
+}  
+
+/* footer */
+
+.finaltopic{
+    background-color:  #24245c;
+    color: white;
+    width: 100%;
+    padding-top: 25px;
+    margin-top: -30px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.finaltopic p strong{
+    font-size: 2rem;
+}
+
+.finaltopic p{
+    font-size: 1.5rem;
+}
+
+.finaltopic p a{
+    text-decoration: none;
+    color: white;
+}
+
+.finaltopic p a:hover{
+    opacity: 0.7;
+}
+
+.fa{
+    padding: 20px;
+  font-size: 32px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+  border: 2px solid white;
+  border-radius: 48%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /* background: #3B5998; */
+  background: #24245c;
+  color: white;
+}
+
+.fa-instagram {
+    background: #24245c;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #24245c;
+    color: white;
+}  

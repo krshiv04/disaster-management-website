@@ -1,0 +1,463 @@
+#navbar{
+    display: block;
+}
+
+#navbar img{
+    display: block;
+    margin: auto;
+}
+
+#navbar ul li a{
+    padding: 2px 10px;
+}
+
+#title h1{
+    font-size: 2rem;
+}
+
+.section1{
+    padding: 60px 35px;
+}
+
+.section1 p{
+    font-size: 1.2rem;
+}
+
+.section2 img{
+    height: 250px;
+    width: 150px;
+}
+
+.st p{
+    width: 100%;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+
+.st ul{
+    padding: 12px 0px 12px 12px;
+}
+
+.inst1 {
+    display: block;
+}
+
+.inst1 p{
+    width: 100%;
+}
+
+.inst1 img{
+    height: 160px;
+    margin: 25px 12px 12px 21px;
+}
+
+.events1 {
+    display: block;
+}
+
+.events1 img{
+    height: 180px;
+    margin: 30px 12px 12px 3px;
+}
+
+.events2{
+    display: block;
+}   
+
+.events2 img{
+    height: 180px;
+    margin: 30px 12px 12px 17px;
+}
+
+.events3 {
+    display: block;
+}
+
+.events3 img{
+    height: 160px;
+    margin: 30px 12px 12px -2px;
+}
+
+.events4{
+    display: block;
+}   
+
+.events4 img{
+    height: 160px;
+    margin: 30px 12px 19px 11px;
+}
+
+.inst3 {
+    display: block;
+}
+
+.inst3 p{
+    width: 100%;
+}
+
+.inst3 img{
+    height: 180px;
+    margin: 25px 12px 12px 28px;
+}
+
+.type1{
+    display: block;
+}
+
+.type1 img{
+    height: 144px;
+    margin: 5px 0px -18px 0px;
+}
+
+.type2{
+    display: block;
+}
+
+.type2 img{
+    height: 170px;
+    margin: 14px 0px -29px 13px;
+}
+
+.type3{
+    display: block;
+}
+
+.type3 img{
+    height: 175px;
+    margin: 14px 0px -29px 14px;
+}
+
+.measures {
+    width: 100%;
+    padding-right: 0px;
+}
+
+.measures p{
+    margin-left: -12px;
+}
+
+.inst6 {
+    display: block;
+}
+
+.assessment {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.inst6 img{
+    height: 175px;
+    margin: 30px 0px 0px 30px;
+}
+
+.inst7{
+    display: block;
+}
+
+.inst7 img{
+    height: 175px;
+    margin: 30px 0px 0px 20px;
+}
+
+.inst8 {
+    display: block;
+}
+
+.inst8 ul {
+    width: 100%;
+}
+
+.inst8 ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst8 img{
+    height: 175px;
+    margin: 30px 0px 0px 15px;
+}
+
+.inst9 {
+    display: block;
+}
+
+.inst9 ul {
+    width: 100%;
+}
+
+.inst9 ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst9 img{
+    height: 230px;
+    margin: -14px 0px -13px 55px;
+}
+
+.inst10{
+    display: block;
+}
+
+.inst10 img{
+    height: 175px;
+    margin: 30px 0px 0px 20px;
+}
+
+.inst11{
+    display: block;
+}
+
+.inst11 img{
+    height: 230px;
+    margin: 30px 0px -29px 17px;
+}
+
+.inst12 {
+    display: block;
+}
+
+.inst12 ul {
+    width: 100%;
+}
+
+.inst12 ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst12 img{
+    height: 170px;
+    margin: 10px 0px -13px 33px;
+}
+
+.inst13{
+    display: block;
+}
+
+.inst13 img{
+    height: 200px;
+    margin: 30px 0px -22px 7px;
+}
+
+.case1 {
+    display: block;
+}
+
+.case1 img{
+    height: 160px;
+    margin: 30px 0px 5px 12px;
+}
+
+.case1 figcaption{
+    margin-left: 15px;
+    width: 200%;
+}
+
+.case2 {
+    display: block;
+}
+
+.case2 img{
+    height: 160px;
+    margin: 30px 0px 5px 12px;
+}
+
+.case2 figcaption{
+    margin-left: 15px;
+    width: 200%;
+}
+
+.case3 {
+    display: block;
+}
+
+.case3 img{
+    height: 190px;
+    margin: 30px 0px 10px 12px;
+}
+
+.case3 figcaption{
+    margin-left: 16px;
+    width: 200%;
+}
+
+.case4 {
+    display: block;
+}
+
+.case4 img{
+    height: 160px;
+    margin: 30px 0px 5px 12px;
+}
+
+.case4 figcaption{
+    margin-left: 15px;
+    width: 200%;
+}
+
+.inst15{
+    display: block;
+}
+
+.inst15 img{
+    height: 177px;
+    margin: 30px 0px -10px 7px;
+}
+
+.inst16{
+    display: block;
+}
+
+.inst16 img{
+    height: 175px;
+    margin: 30px 0px -10px 7px;
+}
+
+.practices {
+    display: block;
+}
+
+.practices ul {
+    width: 100%;
+}
+
+.practices ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.practices img{
+    height: 170px;
+    margin: 20px 0px -5px 13px;
+}
+
+.inst17 {
+    display: block;
+}
+
+.inst17 ul {
+    width: 100%;
+}
+
+.inst17 ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst17 img{
+    height: 198px;
+    margin: 20px 0px -5px 13px;
+}
+
+.inst18 {
+    display: block;
+}
+
+.inst18 ul {
+    width: 100%;
+}
+
+.inst18 ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst18 img{
+    height: 180px;
+    margin: 30px 0px -5px 23px;
+}
+
+.inst19 {
+    display: block;
+}
+
+.inst19 ul {
+    width: 100%;
+}
+
+.inst19 ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst19 img{
+    height: 192px;
+    margin: 10px 0px -5px 17px;
+}
+
+.inst20a {
+    display: block;
+}
+
+.inst20a ul {
+    width: 100%;
+}
+
+.inst20a ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst20a img{
+    height: 192px;
+    margin: 10px 0px -5px 21px;
+}
+
+.inst20b {
+    display: block;
+}
+
+.inst20b ul {
+    width: 100%;
+}
+
+.inst20b ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst20b img{
+    height: 192px;
+    margin: 10px 0px -5px 17px;
+}
+
+.inst21a {
+    display: block;
+}
+
+.inst21a ul {
+    width: 100%;
+}
+
+.inst21a ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst21a img{
+    height: 192px;
+    margin: -4px 0px -22px 60px;
+}
+
+.inst21b {
+    display: block;
+}
+
+.inst21b ul {
+    width: 100%;
+}
+
+.inst21b ul li{
+    font-size: 1.2rem;
+    padding-right: 5px;
+}
+
+.inst21b img{
+    height: 192px;
+    margin: 10px 0px -5px 17px;
+}
+
+.inst22 {
+    width: 100%;
+}

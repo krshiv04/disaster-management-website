@@ -1,0 +1,199 @@
+#navbar ul li a{
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+#title h1{
+    font-size: 1.8rem;
+    margin-top: 0px;
+}
+
+#title{
+    height: 240px;
+}
+
+#title::before{
+    height: 730px;
+}
+
+.section1 p{
+    font-size: 1rem;
+}
+
+.section2 {
+    display: block;
+}
+
+.section2 p{
+    width: 88%;
+}
+
+.section2 img{
+    height: 250px;
+    width: 150px;
+    margin: 40px 12px 42px 12px;
+}
+
+.inst1 img{
+    height: 120px;
+    margin: 15px 12px 15px 12px;
+}
+
+
+.events1 img{
+    height: 135px;
+    margin: 15px 12px 15px -9px;
+}
+
+.events2 img{
+    height: 135px;
+    margin: 15px 12px 15px 5px;
+}
+
+.events3 img{
+    height: 120px;
+    margin: 15px 12px 15px -12px;
+}
+
+.events4 img{
+    height: 120px;
+    margin: 15px 12px 15px 0px;
+}
+
+.inst3 img{
+    height: 120px;
+    margin: 15px 12px 15px 25px;
+}
+
+.type1 img{
+    height: 120px;
+    margin: 15px 0px 15px -21px;
+}
+
+.type2 img{
+    height: 120px;
+    margin: 15px 12px 15px 9px;
+}
+
+.type3 img{
+    height: 120px;
+    margin: 15px 12px 15px 9px;
+}
+
+.inst6 img{
+    height: 135px;
+    margin: 25px 12px -12px 11px;
+}
+
+.inst7 img{
+    height: 135px;
+    margin: 25px 12px -12px 5px;
+}
+
+.inst8 img{
+    height: 135px;
+    margin: 25px 12px -12px 2px;
+}
+
+.inst9 img{
+    height: 135px;
+    margin: -1px 12px -12px 38px;
+}
+
+.inst10 img{
+    height: 135px;
+    margin: -1px 12px -12px 4px;
+}
+
+.inst11 img{
+    height: 171px;
+    margin: -1px 12px -25px 4px;
+}
+
+.inst12 img{
+    height: 135px;
+    margin: -1px 12px -12px 11px;
+}
+
+.inst13 img{
+    height: 135px;
+    margin: -1px 12px -12px 11px;
+}
+
+.case1 img{
+    height: 120px;
+    margin: 20px 12px 5px 3px;
+}
+
+.case2 img{
+    height: 120px;
+    margin: 20px 12px 5px 3px;
+}
+
+.case3 img{
+    height: 135px;
+    margin: 20px 12px 5px 8px;
+}
+
+.case4 img{
+    height: 120px;
+    margin: 20px 12px 5px 3px;
+}
+
+.inst15 img{
+    height: 120px;
+    margin: 15px 12px -15px 10px;
+}
+
+.inst16 img{
+    height: 120px;
+    margin: 15px 12px -15px 8px;
+}
+
+.practices img{
+    height: 120px;
+    margin: 15px 12px -15px 8px;
+}
+
+.inst17 img{
+    height: 120px;
+    margin: 15px 12px -15px 23px;
+}
+
+.inst18 img{
+    height: 135px;
+    margin: 15px 12px -15px 8px;
+}
+
+.inst19 img{
+    height: 135px;
+    margin: 15px 12px -15px 12px;
+}
+
+.inst20a img{
+    height: 135px;
+    margin: 15px 12px -15px 12px;
+}
+
+.inst20b img{
+    height: 135px;
+    margin: 15px 12px -15px 12px;
+}
+
+.inst21a img{
+    height: 135px;
+    margin: 15px 12px -15px 44px;
+}
+
+.inst21b img{
+    height: 135px;
+    margin: 15px 12px -15px 12px;
+}
+
+.inst22 ul li a{
+    font-size: 1.1rem;
+}
+
+.ft p{
+    font-size: 1.1rem;
+}
